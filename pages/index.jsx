@@ -23,7 +23,7 @@ const Home = ({ exploreData, cardsData }) => {
       {/*  */}
       <main className="px-8 mx-auto sm:px-16 max-w-7xl">
         <section className="pt-6">
-          <h2 className="pb-5 text-4xl font-semibold">Explore Nearby</h2>
+          <h2 className="pb-5 text-4xl font-semibold">Airbnb Clone by Ishaan Rajpal 🧑‍💻</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {/* Pull data from server */}
             {exploreData?.map((item) => (
